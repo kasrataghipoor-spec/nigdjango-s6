@@ -1,4 +1,4 @@
-def post(request):
+<h1>def post(request):
     city = request.POST['city']
     appid = '6ad934a76186d5d2fb596a8e925a0cae'
     units = 'metric'
@@ -25,4 +25,4 @@ def post(request):
 
 
 def get(request):
-    return render(request, 'weatherApp/index.html')
+    return render(request, 'weatherApp/index.html')</h1>
